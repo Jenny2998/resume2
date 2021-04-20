@@ -28,6 +28,16 @@ h4{
 
 
 }
+
+#img-logo{
+    transform: scale(1.2);
+    transform-origin: top left;
+    margin-left: 90px;
+}
+.school{
+
+font-weight: 500;
+}
 .bold{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -35,7 +45,7 @@ h4{
 }
 
 .grid-container {
-    /* margin-left: 500px; */
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px;
@@ -49,40 +59,45 @@ h4{
   }
   
   .h { grid-area: h; 
-    /* margin-right: 100px; */
+    margin-right: 100px;
 }
 
   .v { grid-area: v; 
-/* margin-right: 200px; */
+margin-right: 300px;
 }
   
   .g { grid-area: g; 
-    /* margin-top: -20px */
+    margin-top: -20px;
+    line-height: 1.5em;
+
 }
   
   .s { grid-area: s;
-/* margin-top: -10px; */
+margin-top: -10px;
 }
   
   .l { grid-area: l;
-/* margin-top: -30px;  */
+margin-top: -30px; 
 }
   
   .e { grid-area: e; 
-    /* margin-left: -200px; */
+    margin-left: 100px;
 }
   
   .w { grid-area: w; 
-  /* margin-top: -196px;
-  margin-left: -200px; */
+  margin-top: -190px;
+  margin-left: 100px;
+  
   
 }
   .r { grid-area: r; 
-/* margin-top: 50px; */
+margin-top: 50px;
 }
 #img {
-    margin-left: 297px;
+    margin-left: 100px;
     margin-bottom: -70px;
+    max-width: 200%;
+    height: auto;
 }  
 #line{
     margin-top: 50px;
@@ -90,8 +105,8 @@ h4{
     margin-left:160px;
     transform: rotate(90deg);
 }
-/*.container{
-   /* position: relative; left: -100px; top: 70px;
+.container{
+    position: relative; left: -100px; top: 70px; 
     display: grid;
     grid-gap: 3px;
     grid-template-columns: repeat(2, 1fr);
@@ -102,7 +117,7 @@ h4{
     "w a . . ."
     "s l . . ."
     "r r";
-}*/
+}
 
 @media screen and (max-width: 800px) {
     .grid-container{
@@ -129,7 +144,7 @@ h4{
   }
 
 .v { grid-area: v; 
-/* margin-top: 900px; */
+margin-top: 900px;
 }
   
 .g { grid-area: g; 
@@ -152,8 +167,8 @@ h4{
 
 }
 #img {
-    /* margin-left: 30px;
-    margin-bottom: -70px; */
+    margin-left: 30px;
+    margin-bottom: -70px;
 } 
 
 h4{
@@ -162,7 +177,7 @@ h4{
 } 
 }
 
-/*header{
+header{
 grid-area: h;
 
 
@@ -200,4 +215,4 @@ grid-area: h;
 
 .references{
     grid-area: r;
-}*/
+}
